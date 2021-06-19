@@ -1,0 +1,179 @@
+.title {
+  font-family: 'Luckiest Guy';
+  padding-left: 67px;
+  color: orange; }
+
+.bg-black {
+  background-color: black;
+  font-family: 'Fredoka One';
+  text-shadow: 2px 0px 2px #c28d8d; }
+
+.text-pink {
+  padding-left: 67px;
+  font-size: x-large; }
+
+.img {
+  position: absolute;
+  background-image: url(../img/student6.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition: all 0.3s; }
+  .img:hover {
+    width: 120%;
+    height: 120%;
+    margin-bottom: -30%;
+    margin-left: -10%; }
+
+.none {
+  overflow: hidden;
+  transition: all 3s; }
+  .none:hover .img-fluid, .none #change {
+    width: 120%; }
+
+.size {
+  overflow: hidden; }
+
+.fas {
+  font-size: 78px; }
+  .fas.fa-user-graduate, .fas.fa-university, .fas.fa-users {
+    color: ivory; }
+
+.label {
+  color: ivory;
+  font-family: 'Fredoka One';
+  font-size: 17px; }
+
+.hover > .col-4:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+.color {
+  font-family: 'Luckiest Guy'; }
+
+.orange {
+  color: orange;
+  font-family: 'Luckiest Guy';
+  letter-spacing: 1.3px; }
+
+ol > li {
+  line-height: 1.3pc;
+  font-size: 17px;
+  margin: 14px 0;
+  text-transform: lowercase; }
+
+.new {
+  font-family: 'Acme', sans-serif; }
+
+.note {
+  color: crimson;
+  font-family: 'Luckiest Guy'; }
+
+.value {
+  font-family: 'Luckiest Guy';
+  letter-spacing: 1.6px; }
+
+.text-yellow {
+  color: gold;
+  text-shadow: 0px 0px 17px white; }
+
+#footer {
+  text-shadow: 0px 0px 17px white; }
+
+.my {
+  display: none; }
+
+.t-img1 {
+  background-image: url(../img/student1.jpg); }
+
+.t-img2 {
+  background-image: url(../img/student2.jpg); }
+
+.pic {
+  background-image: url(../img/student3.jpg); }
+
+.t-img4 {
+  background-image: url(../img/student4.jpg); }
+
+.t-img1, .t-img2, .pic, .t-img4 {
+  background-size: cover;
+  top: 0;
+  width: 100%;
+  height: 170px; }
+
+#shadow1 {
+  box-shadow: 0px 1.3px 19px 1px #00b7ff; }
+
+#shadow2 {
+  box-shadow: 0px 1.3px 19px 1px #00b7ff; }
+
+.card-title {
+  text-transform: capitalize; }
+
+.h1 {
+  color: #363236; }
+
+.none {
+  display: initial; }
+
+@media (max-width: 750px) {
+  body {
+    font-size: medium; }
+    body .card-title, body .card-body, body .label, body .orange {
+      font-size: large; }
+      body .card-title .none, body .card-body .none, body .label .none, body .orange .none {
+        display: none; }
+    body .color {
+      font-size: xx-large; }
+    body .title {
+      padding-left: 0 !important;
+      font-size: 60px;
+      text-align: center; }
+    body .new > li {
+      margin-left: -30px;
+      font-size: small;
+      line-height: initial; }
+    body .fa-user-graduate, body .fa-users, body .fa-university, body .fas {
+      font-size: 67px; }
+    body .note {
+      font-size: x-small; }
+    body .value {
+      font-size: x-small; }
+    body .text-pink {
+      font-size: x-large;
+      margin-left: -60px;
+      text-align: center; } }
+@media (max-width: 340px) {
+  body {
+    font-size: small; }
+    body .title {
+      padding-left: 0 !important;
+      font-size: 30px;
+      text-align: center; }
+    body .card-title {
+      font-size: x-small; }
+    body .card-body {
+      font-size: x-small; }
+    body .label {
+      font-size: x-small; }
+    body .color {
+      font-size: x-small; }
+    body .orange {
+      font-size: x-small;
+      margin-left: -34px; }
+    body .new > li {
+      margin-left: -30px;
+      font-size: x-small;
+      line-height: initial; }
+    body .fa-user-graduate, body .fa-users, body .fa-university, body .fas {
+      font-size: xx-large; }
+    body .note {
+      font-size: xx-small; }
+    body .value {
+      font-size: xx-small; }
+    body .text-pink {
+      font-size: medium;
+      margin-left: -60px;
+      text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */

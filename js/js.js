@@ -1,0 +1,13 @@
+img=document.querySelector(".img")
+pic1=document.querySelector('#pic1')
+pic2=document.querySelector('#pic2')
+pic3=document.querySelector('#pic3')
+pic1.addEventListener('click',function(event){
+    img.style.backgroundImage=`url(../img/student6.jpg`
+});
+pic2.addEventListener('click',function(event){
+    img.style.backgroundImage=`url(../img/teaching.jpg)`
+});
+pic3.addEventListener('click',function(event){
+    img.style.backgroundImage=`url(../img/teaching1.jpg)`
+});
